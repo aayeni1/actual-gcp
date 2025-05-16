@@ -4,5 +4,5 @@ provider "google" {
   zone                  = var.gcp_zone
   user_project_override = true
   billing_project       = var.gcp_billing_project_name
-  credentials           = jsondecode(base64decode(var.gcp_credentials))
+  credentials           = base64decode(var.gcp_credentials)
 }
