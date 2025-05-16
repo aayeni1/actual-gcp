@@ -1,10 +1,10 @@
 terraform {
   cloud {
 
-    organization = "your-organization"
+    organization = "boboj"
 
     workspaces {
-      name = "your-workspace"
+      name = "actual-gcp"
     }
   }
 }

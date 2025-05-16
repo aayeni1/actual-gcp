@@ -22,3 +22,8 @@ variable "project_enabled_services" {
   type        = list(string)
   description = "List of services to enable."
 }
+
+variable "gcp_credentials" {
+  type        = string
+  description = "base64 encoded service account key"
+}
