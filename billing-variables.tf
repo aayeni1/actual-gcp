@@ -1,7 +1,6 @@
-variable "billing_account_name" {
+variable "billing_account_id" {
   type        = string
-  description = "Display name of the billing account. Used to configure billing alerts."
-  default     = "My Billing Account"
+  description = "Id of the billing account. Used to configure billing alerts."
 }
 
 variable "billing_alert_currency_code" {
